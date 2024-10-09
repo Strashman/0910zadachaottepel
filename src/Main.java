@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         readData();
-        showResult();
+
 
     }
 
@@ -12,11 +12,10 @@ public class Main {
 
         int[] tempList = new int[] {-20, 30, -40, 50, 10, -10};
         for (int i = 0; i < tempList.length; i++) {
-        return tempList;
-        }
+        }return tempList;
 
 
-    public static int getMaxLenOfPositives(int[] tempList) {
+    public static int getMaxLenOfPositives (int [] tempList) {
     int maxLenght = 0;
     int count =0;
     for (int t:tempList){
@@ -26,12 +25,12 @@ public class Main {
             if (count>maxLenght) {
                 maxLenght = count;
             }
+            return getMaxLenOfPositives;
         }
     }
 
-
     public void showResult(int result) {
-        return;
+        return result;
     }
 
 }
